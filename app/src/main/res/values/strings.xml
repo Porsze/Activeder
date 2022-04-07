@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Activder</string>
+    <string name="button_loggin">Zaloguj się</string>
+    <string name="button_register">Nie masz konta? Zarejestruj się</string>
+    <string name="button_search">Wyszukaj</string>
+    <string name="button_add">Dodaj Wydarzenie</string>
+    <string name="button_config">Ustawienia</string>
+    <string name="log_name">Login</string>
+    <string name="password_name">Hasło</string>
+    <string name="button_log">Zaloguj się</string>
+    <string name="log_hint">Nieporawne hasło</string>
 </resources>

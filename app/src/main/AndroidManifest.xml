@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activder">
         <activity
-            android:name=".MainActivity"
+            android:name=".LogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Logging_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

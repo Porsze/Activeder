@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activder">
         <activity
+            android:name=".ChooseActivity"
+            android:exported="false" />
+        <activity
             android:name=".LogActivity"
             android:exported="false" />
         <activity

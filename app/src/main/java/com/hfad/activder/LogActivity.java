@@ -25,16 +25,17 @@ public class LogActivity extends Activity {
         String name = logName.getText().toString();
         EditText logPass = (EditText)  findViewById(R.id.password_name);
         String pass = logPass.getText().toString();
-        if (name.equals(artur)&&pass.equals(hasło))
-        {
-            startActivity(intent);
-        }
-        else
-        {
-       TextView wrongPass = (TextView) findViewById(R.id.log_hint);
-       wrongPass.setText("Nieporawne dane logowania. Spróbuj ponownie");
-
-        }
+        startActivity(intent);
+//        if (name.equals(artur)&&pass.equals(hasło))
+//        {
+//            startActivity(intent);
+//        }
+//        else
+//        {
+//       TextView wrongPass = (TextView) findViewById(R.id.log_hint);
+//       wrongPass.setText("Nieporawne dane logowania. Spróbuj ponownie");
+//
+//        }
 
     }
 }

@@ -9,4 +9,28 @@
     <string name="password_name">Hasło</string>
     <string name="button_log">Zaloguj się</string>
     <string name="log_hint">Nieporawne hasło</string>
+    <string name="button_create">Dodaj Wydarzenie</string>
+    <string name ="event_text">Podsumowanie wydarzenia</string>
+    <string-array name="spinner_discipline">
+        <item>Piłka Nożna</item>
+        <item>Koszykówka</item>
+        <item>Siatkówka</item>
+    </string-array>
+    <string-array name="spinner_date">
+        <item>01.02.2012</item>
+        <item>02.03.2023</item>
+    </string-array>
+    <string-array name="spinner_time">
+        <item>12:00</item>
+        <item>14:00</item>
+    </string-array>
+    <string-array name="spinner_localization">
+        <item>Ołbin</item>
+        <item>Leśnica</item>
+    </string-array>
+    <string-array name="spinner_level">
+        <item>Intermidient</item>
+        <item>Expert</item>
+    </string-array>
+
 </resources>

@@ -19,7 +19,46 @@
         android:padding="16dp">
 
 
+        <Spinner
+            android:id="@+id/spinner_discpiline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_discipline" />
 
+        <Spinner
+            android:id="@+id/spinner_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_date"/>
+
+        <Spinner
+            android:id="@+id/spinner_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_time"/>
+
+        <Spinner
+            android:id="@+id/spinner_localization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_localization"/>
+
+        <Spinner
+            android:id="@+id/spinner_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_level"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_create"
+            android:text="@string/button_create"
+            android:onClick="onCreate"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_text"
+            android:text="@string/event_text"/>
     </LinearLayout>
 
 

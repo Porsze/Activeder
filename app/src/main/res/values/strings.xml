@@ -10,9 +10,12 @@
     <string name="button_log">Zaloguj się</string>
     <string name="log_hint">Nieporawne hasło</string>
     <string name="button_create">Dodaj Wydarzenie</string>
-    <string name ="event_text">Podsumowanie wydarzenia</string>
-    <string name ="text_search">Wpisz wyszukiwaną frazę</string>
-    <string name ="button_search_search">Wyszukaj</string>
+    <string name="event_text">Podsumowanie wydarzenia</string>
+    <string name="text_search">Wpisz wyszukiwaną frazę</string>
+    <string name="button_search_search">Wyszukaj</string>
+    <string name="text_create"></string>
+    <string name="button_back">zmień</string>
+    <string name="button_approve">Zatwierdź</string>
     <string-array name="spinner_discipline">
         <item>Piłka Nożna</item>
         <item>Koszykówka</item>
@@ -31,7 +34,7 @@
         <item>Leśnica</item>
     </string-array>
     <string-array name="spinner_level">
-        <item>Intermidient</item>
+        <item>intermediate</item>
         <item>Expert</item>
     </string-array>
 

@@ -4,13 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    tools:context=".LogActivity">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/duck"
-        />
+    tools:context=".AddActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,34 +15,51 @@
 
 
         <Spinner
-            android:id="@+id/spinner_discpiline"
+            android:id="@+id/spinner_discipline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/spinner_discipline" />
+            android:entries="@array/spinner_discipline"
+            android:minHeight="48dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"
+             />
 
         <Spinner
             android:id="@+id/spinner_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/spinner_date"/>
+            android:entries="@array/spinner_date"
+            android:minHeight="48dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"
+            />
 
         <Spinner
             android:id="@+id/spinner_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/spinner_time"/>
+            android:entries="@array/spinner_time"
+            android:minHeight="48dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"/>
 
         <Spinner
             android:id="@+id/spinner_localization"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/spinner_localization"/>
+            android:entries="@array/spinner_localization"
+            android:minHeight="48dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"/>
 
         <Spinner
             android:id="@+id/spinner_level"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/spinner_level"/>
+            android:entries="@array/spinner_level"
+            android:minHeight="48dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
